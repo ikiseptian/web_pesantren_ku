@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* Button */
+
+.btn-danger{
+    background-color: #bd0001;
+    border-radius: 15px;
+    border-color: #bd0001;
+    padding: 10px 45px;
+    color: white;
+}
+
+.btn-outline-danger{
+    background-color: transparent;
+    border-radius: 15px;
+    border-color: #bd0001;
+    padding: 10px 45px;
+    color: #bd0001;
+}
+
+/* Navbar */
+.nav-item .nav-link{
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.scroll-nav-active{
+    background-color: white;
+    border-bottom: 1px solid #bd0001;
+}
+.text-nav-active{
+    color: black;
+}
+
+/* Hero */
+
+#hero {
+    background-image: url("../../assets/images/andri-helmansyah-e9tCOGG40mw-unsplash.jpeg"); /* Perbaiki path ke 'assets' */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+.hero-title{
+    padding-top: 200px;
+}
+
+.hero-text{
+    font-size: 65px;
+    font-weight: 600;
+}
+
+/* join */
+
+.stripe{
+    height: 5px;
+    width: 40px;
+    background-color: #bd0001;
+}
